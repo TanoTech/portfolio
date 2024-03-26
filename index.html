@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaetano Napoli Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+</head>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+        background-color: rgb(246, 144, 22); 
+        border-radius: 20px;
+        padding: 2em;
+    }
+
+    .card {
+        height: 100%;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: rgb(246, 144, 22); 
+        margin: 0;
+        .btn{
+
+background-color: rgb(246, 144, 22); 
+
+}
+    }
+    .card:hover {
+        background-color: rgb(246, 76, 14);
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .ratio {
+        height: 0;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+
+    .ratio iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin-top: 20px;
+        border: none
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <header class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <img src="https://media.licdn.com/dms/image/D4D03AQE-8tXdJ006Lw/profile-displayphoto-shrink_800_800/0/1711279720134?e=1717027200&v=beta&t=YlHR0Fyw1qliCqAogH5s-yzcEZpBXZSAoQRpRoKlqJ4"
+                    class="img-fluid rounded-circle" alt="profile pic">
+            </div>
+            <div class="col-12 col-md-9">
+                <h1>Gaetano Napoli</h1>
+                <p>Full Stack Developer</p>
+                <p>Sono orientato alla programmazione full stack con attenzione alle funzioni Javascript e la gestione del
+                backend in C# con ASP.NET MVC e creazione di Web API.</p>
+                <p></p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mt-5 d-flex flex-wrap">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Clinica veterinaria in .NET (Framework) + Entity Framework (Code first)</h5>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/QqKlB_5RQ_M" allowfullscreen></iframe>
+                        </div>
+                        <p class="card-text">Lavoro di gruppo di una clinica veterinaria. Ho gestito tutta la logica dietro
+                            la farmacia della clinica, con aggiunta aziende fornitrici, prodotti, tipi di utilizzo dei farmaci e
+                            sistemazione automatica degli stessi nei cassetti dei rispettivi armadi, gestione ricette e codici
+                            fiscali.</p>
+                        <a href="https://github.com/valkqt/Veterinario3" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizzeria in .NET Framework + Query SQL (Database First)</h5>
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8rSKrLA7sKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Registrazione e login utenti e amministratore per ordine prodotti e stato evasione dell'ordine con chiamate asincrone</p>
+
+                        <a href="https://github.com/TanoTech/AnticaPizza" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestionale Polizia Municipale in .NET Core + Entity Framework</h5>           
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/xKgXkmXjBeE" allowfullscreen></iframe>
+                        </div>
+                        <p>Gestione del database SQL e programmazione della logica per la gestione delle multe, agenti e trasgressori per un corpo di polizia locale.</p>
+                        <a href="https://github.com/TanoTech/municipaleDB?tab=readme-ov-file" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ecommerce in .NET Web Forms</h5>
+                        
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/ti_g2uBRbHw" allowfullscreen></iframe>
+                        </div>
+                        <p class="card-text">Ho gestito registrazione, login, auth coi social connessione tra i vari component e pannello profilo
+                            personale.
+                            Ho gestito i NuGet, Azure Microsoft Cloud per un database condiviso e della sicurezza delle stringe e token
+                            sensibili tramite appsettings.json</p>
+                        <a href="https://github.com/TanoTech/ECommerce-ASP.NET-Framework-bw16?tab=readme-ov-file" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ecommerce in .NET Web Forms</h5>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/MM26W3Bd5lo" allowfullscreen></iframe>
+                        </div>
+                        <a href="https://github.com/TanoTech/s15-l5-ECommerce" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Calcolatore tasse con creatore codice fiscale C#</h5>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/jz3wdhnOrpw" allowfullscreen></iframe>
+                        </div>
+                        <a href="https://github.com/TanoTech/Calcolatore_Tasse?tab=readme-ov-file" class="btn btn-primary mt-2">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Flask app - Machine Learning FragolaDetector</h5>
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cf51ID3xAiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <p>&copy; 2024 Gaetano Napoli</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
